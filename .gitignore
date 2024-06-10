@@ -10,6 +10,14 @@
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 
+/FirstProyect/[Ll]ibrary/
+/FirstProyect/[Tt]emp/
+/FirstProyect/[Oo]bj/
+/FirstProyect/[Bb]uild/
+/FirstProyect/[Bb]uilds/
+/FirstProyect/[Ll]ogs/
+/FirstProyect/[Mm]emoryCaptures/
+
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta
 
