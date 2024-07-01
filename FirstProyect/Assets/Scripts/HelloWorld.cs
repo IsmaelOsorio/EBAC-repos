@@ -10,15 +10,15 @@ public class HelloWorld : MonoBehaviour
     void Start()
     {
         i = 1;
-        Debug.Log("Hello World");
-        Debug.LogError("Hello World Error");
-        Debug.LogWarning("Hello World Warning");
+        //Debug.Log("Hello World");
+        //Debug.LogError("Hello World Error");
+        //Debug.LogWarning("Hello World Warning");
     }
 
     // Update is called once per frame
     void Update()
     {
-        i++;
-        Debug.Log("Valor i: " + i);
+        //i++;
+        //Debug.Log("Valor i: " + i);
     }
 }
