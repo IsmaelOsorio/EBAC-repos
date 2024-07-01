@@ -6,15 +6,15 @@ public class Component_1 : MonoBehaviour
 {
     public static GameObject myObject;
 
-    //private void Awake()
-    //{
-    //    myObject = this.gameObject;
-    //}
+    private void Awake()
+    {
+        myObject = this.gameObject;
+    }
 
     // Start is called before the first frame update
     void Start()
     {
-        myObject = this.gameObject;
+        
     }
 
     // Update is called once per frame
