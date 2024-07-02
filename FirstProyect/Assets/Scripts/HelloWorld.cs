@@ -20,5 +20,27 @@ public class HelloWorld : MonoBehaviour
     {
         //i++;
         //Debug.Log("Valor i: " + i);
+
+        Debug.Log("Hola desde Update");
+    }
+
+    private void FixedUpdate()
+    {
+        Debug.Log("Hola desde Fixed Update cada 50px");
+    }
+
+    private void LateUpdate()
+    {
+        Debug.Log("Hola desde Late Update");
+    }
+
+    private void OnEnable()
+    {
+        Debug.Log("Objeto habilitado");
+    }
+
+    private void OnDisable()
+    {
+        Debug.Log("Objeto inhabilitado");
     }
 }
