@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class GameObject_1 : MonoBehaviour
 {
+    public GameObject PrefabCube;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,5 +16,11 @@ public class GameObject_1 : MonoBehaviour
     void Update()
     {
         
+    }
+
+    private void Awake()
+    {
+        Color colorObject = new Color(Random.value, Random.value, Random.value);
+        PrefabCube.GetComponent<MeshRenderer>().material.color = colorObject;
     }
 }

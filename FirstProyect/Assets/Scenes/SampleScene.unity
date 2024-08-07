@@ -330,7 +330,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6d378aa98b8222c46b7cf10b6c69651e, type: 3}
   m_Name: 
@@ -347,9 +347,6 @@ GameObject:
   - component: {fileID: 1601674743}
   - component: {fileID: 1601674742}
   - component: {fileID: 1601674741}
-  - component: {fileID: 1601674747}
-  - component: {fileID: 1601674746}
-  - component: {fileID: 1601674745}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -443,42 +440,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1601674745
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1601674740}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4004878ed0cebf439c5bf866a7b0ed6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1601674746
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1601674740}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 877f15a65e913ee47b752e37cd61948c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1601674747
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1601674740}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4fba6824982802741b2c726d9d1239c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &592273871602137971
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -678,6 +639,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae67f99bf33165f47b4204ec35ad5c63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PrefabCube: {fileID: 8512356897630394728}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
