@@ -554,6 +554,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7886435797576996728, guid: 564e5291288189f42a93bdf58ea66262, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3446259344476722441}
+    - targetCorrespondingSourceObject: {fileID: 7886435797576996728, guid: 564e5291288189f42a93bdf58ea66262, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3446259344476722442}
   m_SourcePrefab: {fileID: 100100000, guid: 564e5291288189f42a93bdf58ea66262, type: 3}
 --- !u!1 &3446259344476722440 stripped
 GameObject:
@@ -573,6 +576,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Prefab_Cubo: {fileID: 3446259344476722440}
+--- !u!54 &3446259344476722442
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3446259344476722440}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
