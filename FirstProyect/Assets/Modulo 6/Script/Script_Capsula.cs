@@ -4,15 +4,23 @@ using UnityEngine;
 
 public class Script_Capsula : MonoBehaviour
 {
+    public GameObject Prefab_Capsula;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    private void FixedUpdate()
+    {
+        Color c = new Color(Random.value, Random.value, Random.value);
+        Prefab_Capsula.GetComponent<MeshRenderer>().material.color = c;
     }
 }
