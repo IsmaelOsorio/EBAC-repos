@@ -6,10 +6,10 @@ public class HelloWorld_2 : MonoBehaviour
 {
     private int cont = 0;
 
-    private void Awake()
-    {
-        Debug.LogError("Awake es el : " + ++cont + "° en ejecutarse");
-    }
+    //private void Awake()
+    //{
+    //    Debug.LogError("Awake es el : " + ++cont + "° en ejecutarse");
+    //}
     // Start is called before the first frame update
     void Start()
     {
