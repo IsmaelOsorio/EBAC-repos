@@ -348,6 +348,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ed84386225886041bb8c82df8a737bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Prefab_Esferas: {fileID: 2680959119758481194}
+  listaCubos: []
+  numCubos: 0
 --- !u!1 &1601674740
 GameObject:
   m_ObjectHideFlags: 0
