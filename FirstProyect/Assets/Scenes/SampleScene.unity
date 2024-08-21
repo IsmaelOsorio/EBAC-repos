@@ -529,11 +529,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1606733981}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5364e7196c3f27d4584fb7a4d9254c64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Prefab_Capsula: {fileID: 1606733981}
+  cubo: {fileID: 616803103}
+  esfera: {fileID: 1077841815}
 --- !u!1001 &493362327439989235
 PrefabInstance:
   m_ObjectHideFlags: 0
