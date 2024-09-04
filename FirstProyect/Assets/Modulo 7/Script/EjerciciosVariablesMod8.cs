@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class EjerciciosVariablesMod8 : MonoBehaviour
 {
-    private int a =     0;
-    private float b =   0;
+    private int a   = 0;
+    private float b = 2;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,13 +15,13 @@ public class EjerciciosVariablesMod8 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        a += a;
-        Debug.Log(a);
+        a++;
+        Debug.Log($"Variable a: {a}");
     }
 
     private void FixedUpdate()
     {
         b *= b;
-        Debug.Log(b);
+        Debug.Log($"Variable b: {b}");
     }
 }
