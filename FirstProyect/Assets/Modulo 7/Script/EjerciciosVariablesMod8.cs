@@ -15,6 +15,8 @@ public class EjerciciosVariablesMod8 : MonoBehaviour
 
     private float e = 93.893432234f;
 
+    public string f = "Ismael Osorio Cuevas";
+
     public GameObject Prefab_Cubo;
 
     public string palabra = "";
@@ -25,6 +27,18 @@ public class EjerciciosVariablesMod8 : MonoBehaviour
         Debug.Log($"Operación entre flotantes: {(int)(c + d)}");
 
         Debug.Log($"Conversión de flotante a string con 4 posiciones de precisión: {e.ToString("F4")}");
+
+        string nombre = f.Substring(0, 6);
+        string apellidoPaterno = f.Substring(7, 6);
+        string apellidoMaterno = f.Substring(14, 6);
+
+        string[] nombreCompleto;
+
+        Debug.Log($"Substring\n Nombre: {nombre}\n Apellido Paterno: {apellidoPaterno}\n Apellido Materno: {apellidoMaterno}");
+
+        nombreCompleto = f.Split(' ');
+
+        Debug.Log($"Split\n Nombre: {nombreCompleto[0]}\n Apellido Paterno: {nombreCompleto[1]}\n Apellido Materno: {nombreCompleto[2]}");
     }
 
     // Update is called once per frame
