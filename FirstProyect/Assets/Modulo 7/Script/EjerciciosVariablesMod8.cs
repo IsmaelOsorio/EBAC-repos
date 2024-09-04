@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class EjerciciosVariablesMod8 : MonoBehaviour
 {
+    private Color color;
+
     private int a   = 0;
     private float b = 2;
 
@@ -12,6 +14,8 @@ public class EjerciciosVariablesMod8 : MonoBehaviour
     private float d = 9.034f;
 
     public GameObject Prefab_Cubo;
+
+    public string palabra = "";
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +28,14 @@ public class EjerciciosVariablesMod8 : MonoBehaviour
     {
         a++;
         Debug.Log($"Variable a: {a}");
+
+        switch (palabra)
+        {
+            case "hola":
+                color = new Color(Random.value, Random.value, Random.value);
+                Prefab_Cubo.GetComponent<MeshRenderer>().material.color = color;
+                break;
+        }
     }
 
     private void FixedUpdate()
@@ -31,12 +43,10 @@ public class EjerciciosVariablesMod8 : MonoBehaviour
         b *= b;
         Debug.Log($"Variable b: {b}");
 
-        Color c = new Color(Random.value, Random.value, Random.value);
-
         if ((a % 2) == 0)
         {
-            Debug.Log(a);
-            Prefab_Cubo.GetComponent<MeshRenderer>().material.color = c;
+            color = new Color(Random.value, Random.value, Random.value);
+            Prefab_Cubo.GetComponent<MeshRenderer>().material.color = color;
         }
     }
 }
