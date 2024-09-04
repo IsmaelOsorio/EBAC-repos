@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting.Antlr3.Runtime;
@@ -11,6 +10,8 @@ public class EjerciciosVariablesMod8 : MonoBehaviour
 
     private float c = 3.932f;
     private float d = 9.034f;
+
+    public GameObject Prefab_Cubo;
 
     // Start is called before the first frame update
     void Start()
@@ -29,5 +30,13 @@ public class EjerciciosVariablesMod8 : MonoBehaviour
     {
         b *= b;
         Debug.Log($"Variable b: {b}");
+
+        Color c = new Color(Random.value, Random.value, Random.value);
+
+        if ((a % 2) == 0)
+        {
+            Debug.Log(a);
+            Prefab_Cubo.GetComponent<MeshRenderer>().material.color = c;
+        }
     }
 }
