@@ -13,6 +13,8 @@ public class EjerciciosVariablesMod8 : MonoBehaviour
     private float c = 3.932f;
     private float d = 9.034f;
 
+    private float e = 93.893432234f;
+
     public GameObject Prefab_Cubo;
 
     public string palabra = "";
@@ -21,6 +23,8 @@ public class EjerciciosVariablesMod8 : MonoBehaviour
     void Start()
     {
         Debug.Log($"Operación entre flotantes: {(int)(c + d)}");
+
+        Debug.Log($"Conversión de flotante a string con 4 posiciones de precisión: {e.ToString("F4")}");
     }
 
     // Update is called once per frame
