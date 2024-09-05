@@ -15,6 +15,8 @@ public class EjerciciosVariablesMod8 : MonoBehaviour
 
     private float e = 93.893432234f;
 
+    private string f = "Ismael Osorio Cuevas";
+
     private string g = "3000";
     private string h = "4000";
     private int i;
@@ -22,7 +24,7 @@ public class EjerciciosVariablesMod8 : MonoBehaviour
 
     private string k = "Daft Punk es lo mejor";
 
-    public string f = "Ismael Osorio Cuevas";
+    private string l = "Lorem ipsum dolor sit amet, consectetur adipiscing elit";
 
     public GameObject Prefab_Cubo;
 
@@ -61,6 +63,8 @@ public class EjerciciosVariablesMod8 : MonoBehaviour
         {
             if ((i % 2) == 0) Debug.Log($"{k[i]}");
         }
+
+        Debug.Log($"Eliminar 5 caracteres: {l.Substring(0, 5)}");
     }
 
     // Update is called once per frame
