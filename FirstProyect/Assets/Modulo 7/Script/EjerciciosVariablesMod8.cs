@@ -20,6 +20,8 @@ public class EjerciciosVariablesMod8 : MonoBehaviour
     private int i;
     private int j;
 
+    private string k = "Daft Punk es lo mejor";
+
     public string f = "Ismael Osorio Cuevas";
 
     public GameObject Prefab_Cubo;
@@ -51,6 +53,13 @@ public class EjerciciosVariablesMod8 : MonoBehaviour
         if (success_1 && success_2)
         {
             Debug.Log($"Multiplicación: {i * j}");
+        }
+
+        int numeroCaracteres = k.Length;
+
+        for (int i = 0; i < numeroCaracteres; i++)
+        {
+            if ((i % 2) == 0) Debug.Log($"{k[i]}");
         }
     }
 
