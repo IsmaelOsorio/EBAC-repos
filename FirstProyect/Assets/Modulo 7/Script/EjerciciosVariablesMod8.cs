@@ -15,6 +15,11 @@ public class EjerciciosVariablesMod8 : MonoBehaviour
 
     private float e = 93.893432234f;
 
+    private string g = "3000";
+    private string h = "4000";
+    private int i;
+    private int j;
+
     public string f = "Ismael Osorio Cuevas";
 
     public GameObject Prefab_Cubo;
@@ -39,6 +44,14 @@ public class EjerciciosVariablesMod8 : MonoBehaviour
         nombreCompleto = f.Split(' ');
 
         Debug.Log($"Split\n Nombre: {nombreCompleto[0]}\n Apellido Paterno: {nombreCompleto[1]}\n Apellido Materno: {nombreCompleto[2]}");
+
+        bool success_1 = int.TryParse(g, out i);
+        bool success_2 = int.TryParse(h, out j);
+
+        if (success_1 && success_2)
+        {
+            Debug.Log($"Multiplicación: {i * j}");
+        }
     }
 
     // Update is called once per frame
