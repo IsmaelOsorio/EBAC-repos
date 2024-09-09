@@ -8,6 +8,8 @@ public class Ejercicios_de_Ciclos_y_arreglos : MonoBehaviour
     private int[] array_2;
     private int[] array_3;
 
+    private string[] array_4;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,6 +31,16 @@ public class Ejercicios_de_Ciclos_y_arreglos : MonoBehaviour
 
             Debug.Log($"Array 3: {array_3[i]}");
         }
+
+        array_4 = new string[5] { "Aprende", "a vivir", "y sabrás", "morir", "bien" };
+        string fraseCelebre = "";
+
+        foreach (string palabra in array_4)
+        {
+            fraseCelebre += (palabra + ' ');
+        }
+
+        Debug.Log(fraseCelebre);
     }
 
     // Update is called once per frame
